@@ -49,5 +49,3 @@ jobs:
           service: blog-frontend
           image: ${{ secrets.DOCKERHUB_USERNAME }}/blog-frontend:${{ github.sha }}
           region: ${{ secrets.GOOGLECLOUD_REGION }}
- 
-With the image tags :latest, google and docker was caching too much. So, added github.sha
