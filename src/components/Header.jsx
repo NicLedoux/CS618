@@ -10,6 +10,7 @@ export function Header() {
     return (
       <div>
         <h1>Welcome to My Blog!</h1>
+        <h2>A Full-Stack Web App Using React & Vite</h2>
         Logged in as <User id={sub} />
         <br />
         <button onClick={() => setToken(null)}>Logout</button>
