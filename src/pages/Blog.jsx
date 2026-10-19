@@ -22,6 +22,10 @@ export function Blog() {
       <Helmet>
         <title>Full-Stack React Blog</title>
       </Helmet>
+      <meta
+        name='description'
+        content='A blog full of articles about full-stack React development.'
+      />
       <Header />
       <br />
       <hr />
