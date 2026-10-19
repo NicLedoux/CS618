@@ -1,2 +1,2 @@
-const _ = require('lodash');
-rconsole.log(_.shuffle([1,2,3,4]));
+const _ = require('lodash')
+console.log(_.shuffle([1, 2, 3, 4]))
